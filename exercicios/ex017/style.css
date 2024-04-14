@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    medidas absolutas
+    cm, mm, in(polegada), px, pt(ponto), pc(paica) 
+    
+    medidas relativas
+    em(relat.ao tamanho atual da font, altura do M maiúculo), ex(relat. a altura x), rem(relat. a font do body), vm(relat. a largura da tela), vh(relat. a altura da tela), %
+
+    16px geralmente = 1em
+    */
+    font-size: 16px;
+}

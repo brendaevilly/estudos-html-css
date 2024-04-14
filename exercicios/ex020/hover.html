@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        div {
+            border: 0.5px solid black;
+            width: 300px;
+        }
+        div:hover {
+            color: red;
+        }
+        div > p {
+            display: none;
+            background-color: red;
+            color: white;
+            width: 300px;
+        }
+        div:hover > p {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <hr>
+    <h2>Exemplo de cardápio</h2>
+    <div>
+        X-Burger
+        <p>Pão</p>
+        <p>1 Carne</p>
+        <p>Bacon</p>
+        <p>Queijo</p>
+        <p>Cebola caramelizada</p>
+        <p>Alface</p>
+    </div>
+ 
+</body>
+</html>
